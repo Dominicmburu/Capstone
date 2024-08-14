@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Dominic Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="resumeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resume
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="resumeDropdown">
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/i. Resume English.pdf" id="resumeEnglish">Resume in English</a>
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/i. Resume Kiswahili.pdf" id="resumeKiswahili">Resume in KiSwahili</a>
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/i. Resume Kikuyu.pdf" id="resumeIndigenous">Resume in Indigenous Language</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume-viewer.html?pdf=doc/ii. MY BIOGRAGHY.pdf">Autobiography</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="presentationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Presentations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="presentationsDropdown">
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/iii. PowerPoint Autobiography.pdf">Autobiographical Essay Presentation</a>
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/v. Innovations in Information Technology.pdf">Invention or Innovation Presentation</a>
+                        <a class="dropdown-item" href="resume-viewer.html?pdf=doc/vii. The Role of Traditional African Music and Dance.pdf">African Culture Presentation</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume-viewer.html?pdf=doc/xi. The Impact of Water Scarcity in African Communities.pdf">Essay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume-viewer.html?pdf=doc/x. Evidence of Professionally Relevant Online Platforms.pdf">Online platforms</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my work, skills, and projects</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <section id="about" class="text-center py-5">
+            <div class="container">
+                <h2 class="mb-4">About Me</h2>
+                <p class="lead">Hi, I'm <strong>Dominic Mburu</strong>, a passionate Information Technology student at Dedan Kimathi University of Technology. I specialize in software development and mobile application projects. Welcome to my professional portfolio where you can explore my skills, projects, and more.</p>
+                <img src="images/logo.jpg" class="rounded-circle mt-4" alt="tilikiptiken" width="200">
+            </div>
+        </section>
+        
+
+        <section id="skills" class="text-center py-5 bg-light">
+            <h2 class="mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">JavaScript</h4>
+                            <p class="card-text">Proficient in developing dynamic web applications using JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">React</h4>
+                            <p class="card-text">Experienced in building user interfaces with React.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Python</h4>
+                            <p class="card-text">Skilled in using Python for backend development and data analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="text-center py-5">
+            <h2 class="mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/MyFitnesspal_tracker.jpg" class="card-img-top" alt="Fitness Tracker App">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracker App</h5>
+                            <p class="card-text">A React-based app for tracking fitness activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/emergency.png" class="card-img-top" alt="Emergency Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Emergency Application</h5>
+                            <p class="card-text">An Android app developed using Java for emergency situations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/featured.png" class="card-img-top" alt="Django Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Django User Registration</h5>
+                            <p class="card-text">A Django project involving user registration with email and username validation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/image1.png" class="card-img-top" alt="E-Commerce Website for Visually Impaired">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Website for Visually Impaired</h5>
+                            <p class="card-text">A website design that allows visually impaired and blind users to access and shop without any assistance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/image.png" class="card-img-top" alt="Freelancing Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Freelancing Website</h5>
+                            <p class="card-text">A platform for freelancers to showcase their skills and find job opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="text-center mt-5 py-4">
+        <p>&copy; 2024 Dominic Mburu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    
+</body>
+</html>

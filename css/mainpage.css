@@ -1,0 +1,122 @@
+
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+                
+                *{
+                margin:0;
+                padding: 0;
+                }
+                
+                body{
+                
+                font-family: 'Poppins', sans-serif;
+                color:white;
+                background-color: #111111;
+                
+                
+                }
+                #navigation{
+                background-color:#111111;
+                color:white;
+                
+                }
+                a{
+                color: white;
+                
+                
+                }
+                a:hover{
+                color:#F05423 ;
+                
+                
+                
+                }
+                .dropdown-item:hover{
+                    background-color:#F05423 ;
+                    color:white;
+                    border-radius: 15px;
+                }
+                i:hover{
+                    color:#F05423;
+                }
+                span{
+                    color:#F05423;
+                }
+                button:hover{
+                background-color: #111111;
+                color:#F05423;
+                border:2px solid #F05423;
+               
+                }
+                button{
+                background-color:#F05423 ;
+                color:white;
+                width: auto;
+                height: auto;
+                border:2px solid #F05423;
+                text-align:center;
+                padding: 9px;
+                border-radius: 5px;
+                font-size: 18px;
+                outline: none;
+                
+                
+                }
+               #para{
+                font-size: 18px;
+               }
+               #col1{
+                border-radius: 10px;
+               }
+               #col1:hover{
+                background-color:#F05423; 
+               }
+               #web{
+                color:#F05423;
+               }
+               #case{
+                font-size: 38px;
+               }
+               #g1{
+                border-bottom: 2px solid white;
+                text-align: center;
+               }
+             
+               
+               #col2{
+                border-right: 3px solid #F05423;
+               
+               }
+               #btn1{
+
+background-color:#F05423 ;
+                color:white;
+                width: 250px;
+                height: auto;
+                border:2px solid #F05423;
+                text-align:center;
+                padding: 9px;
+                border-radius: 5px;
+                font-size: 18px;
+                outline: none;
+
+               }
+#btn1:hover{
+                background-color: #111111;
+                color:#F05423;
+                border:2px solid #F05423;
+               
+                }
+                #col2{
+                    font-size: 20px;
+                }
+                #col4{
+                    border-right: 2px solid #F05423;
+                }
+                #footer{
+                    
+                    background-color: #1E1E1E;
+                }
+                #scroll{
+                    border-top: 2px solid #F05423;
+                }
+                
